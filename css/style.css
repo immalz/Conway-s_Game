@@ -1,0 +1,94 @@
+:root{
+    --red:#ff2e63;
+    --black:#252a34;
+    --blue:#d4e9e8;
+    --white:#eaeaea;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #fff;
+    overflow-x: hidden; /* esto sirve para no tener el scroll horizontal */
+    background: #C9D6FF; 
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF); 
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); 
+    font-family: 'Roboto Slab', serif;
+}
+/*---- HEADER ----*/
+.header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header h1 {
+    font-size: 40px;
+}
+
+/*---- MAIN ----*/
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.main .juego {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.main .history {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.main .history button {
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    border: var(--white);
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.main .history button:hover {
+    text-decoration: underline;
+}
+.main .history button a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 20px;
+}
+
+/*---- FOOTER ----*/
+.footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width: 100%;
+    /* height: 100px; */
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+}
+.footer .info {
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.footer .redes-sociales {
+    display: flex;
+    justify-content: center;
+}
+.footer .redes-sociales a {
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
