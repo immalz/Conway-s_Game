@@ -55,7 +55,6 @@ body {
     border: var(--white);
     border-radius: 20px;
     padding: 20px;
-    font-family: 'Roboto Slab', serif;
 }
 .main .history button:hover {
     text-decoration: underline;
